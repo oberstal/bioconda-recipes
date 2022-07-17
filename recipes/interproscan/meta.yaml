@@ -1,9 +1,9 @@
 {% set name = "interproscan" %}
 # Remember to update db versions in interproscan.properties for each new release
 # Look at ./core/jms-implementation/support-mini-x86-32/interproscan.properties in the archive
-{% set version_minor = "88.0" %}
-{% set version_major = "5.55" %}
-{% set md5 = "a47ea8136ab76f84d7fb3318d9aa6600" %}
+{% set version_minor = "89.0" %}
+{% set version_major = "5.56" %}
+{% set md5 = "f3288327a6c7be1ff42220c3b7a1de43" %}
 
 package:
   name: "{{ name|lower }}"
